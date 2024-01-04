@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Calculator.Tests": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\Andre\\source\\repos"
+    }
+  }
+}
