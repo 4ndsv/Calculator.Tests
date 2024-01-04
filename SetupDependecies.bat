@@ -2,7 +2,7 @@
 
 set gitUrl=https://github.com/4ndsv/
 set branchName=main
-set repoList=Calculator Viewer
+set repoList=Calculator
 
 echo Checking dependecies...
 
