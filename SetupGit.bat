@@ -14,9 +14,11 @@ if exist %repoName%\ (
   git checkout %branchName%
   git fetch
   git pull
+  dotnet build
 ) else (
   echo Repo %repoName% does not exist in parent folder.
   git clone %gitUrl%%repoName%.git
   cd %repoName%
   git checkout %branchName%
+  dotnet build
 )

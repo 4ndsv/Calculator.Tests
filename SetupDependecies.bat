@@ -6,8 +6,9 @@ set repoList=Calculator Viewer
 
 echo Checking dependecies...
 
+
 (for %%r in (%repoList%) do ( 
-   start cmd /k SetupGit %gitUrl% %%r %branchName% %%r
+   start cmd /k SetupGit %gitUrl% %%r %branchName%
    echo %%r Done!
 ))
 
